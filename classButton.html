@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="classButton.js"></script>
+    <link href="classButton.css" rel="stylesheet">
+    <title>Classes</title>
+</head>
+<body>
+    <div align="center">
+        <button id="Assignments" onclick="assignmentButton()" class="btn btn-primary">Assignments</button>
+        <button id="Classes" onclick="classButton()" class="btn btn-primary">Classes</button>
+        <button id="Sign_In_Section" onclick="signInButton()" class="btn btn-primary">Sign In Section</button>
+        <button id="Layout" onclick="layoutButton()" class="btn btn-primary">Layout</button>
+        <button id="Games" onclick="games()" class="btn btn-primary">Games</button>
+        <button id="im_done" onclick="ImDone()">I'm Done !</button>
+    </div>
+    <hr>
+    <div align="center">
+    <h2 id="random_stuff">Let's add a place to view your time table !</h2>
+    <h4>Add the classes by typing the name and maybe even the teacher :)</h4>
+    </div>
+    <div align="center">
+        <div id="timetable">
+            <div id="timetable1">
+                <input type="text" id="class1_name" placeholder="Class 1...">
+                <br><br><br>
+                <input type="text" id="class1_teacher" placeholder="Class 1 Teacher...">
+                <br><br><br>
+                <button id="class1_btn" onclick="classDetails()">Submit</button>
+            </div>
+            <div id="timetable1">
+                <input type="text" id="class2_name" placeholder="Class 2...">
+                <br><br><br>
+                <input type="text" id="class2_teacher" placeholder="Class 2 Teacher...">
+                <br><br><br>
+                <button id="class2_btn" onclick="classDetails()">Submit</button>
+            </div>
+            <input type="text" id="class3_name" placeholder="Class 3...">
+                <br><br><br>
+                <input type="text" id="class3_teacher" placeholder="Class 3 Teacher...">
+                <br><br><br>
+                <button id="class3_btn" onclick="classDetails()">Submit</button>
+        </div>
+    </div>
+</body>
+</html>

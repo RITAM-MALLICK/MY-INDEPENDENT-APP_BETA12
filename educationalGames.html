@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="educationalGames.js"></script>
+    <link href="educationalGames.css" rel="stylesheet">
+    <title>Educational Games</title>
+</head>
+<body>
+    <div align="center">
+        <button id="Assignments" onclick="assignmentButton()" class="btn btn-primary">Assignments </button>
+        <button id="Classes" onclick="classButton()" class="btn btn-primary">Classes</button>
+        <button id="Sign_In_Section" onclick="signInButton()" class="btn btn-primary">Sign In Section</button>
+        <button id="Layout" onclick="layoutButton()" class="btn btn-primary">Layout</button>
+        <button id="Games" onclick="games()" class="btn btn-primary">Games</button>
+        <button id="im_done" onclick="ImDone()">I'm Done !</button>
+    </div>
+    <hr>
+    <div align="center">
+     <h3>Okay, here are some games to play !</h3>
+     <br><br>
+     <button id="previous_game" class="btn btn-danger" onclick="previousGame()">PREVIOUS</button>
+     <button id="next_game" class="btn btn-danger" onclick="nextGame()">NEXT</button>
+     <br><br>
+     <h4>MOUSE DESIGN CREATER</h4>
+     <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+        <defs>
+            <filter id="goo">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+            <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
+            <feComposite in="SourceGraphic" in2="goo" operator="atop"/>
+            </filter>
+        </defs>
+    </svg>
+    <canvas id="canvas1"></canvas>
+    
+    <canvas id="canvas2"></canvas>
+    
+    <article>
+      <div align="center">
+      <h3>Mouse Design Creater</h3>
+    </div>
+    <br>
+    </article>
+    <h1></h1>
+    <footer>Created By Ritam
+      <h3>Powered by -- MY SCHOOL OS GENERATOR</h3>
+    </footer>
+    <div align="bottom">
+       <button id="secretBtn2" class="btn btn-info" onclick="secretBtn()"></button>
+    </div>
+    </div>
+</body>
+</html>

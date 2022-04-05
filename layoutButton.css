@@ -1,0 +1,98 @@
+body {
+    height: 100vh;
+    background: 
+        linear-gradient(45deg, rgb(76,0,255), transparent),
+        repeating-linear-gradient(45deg, rgb(183, 0, 255) 0%, rgb(183, 0, 255) 5%, transparent 5%, transparent 10%, rgb(183, 0, 255) 10%, rgb(183, 0, 255) 11%, transparent 11%, transparent 18% ),
+        rgb(216, 118, 255) repeating-linear-gradient(-45deg, rgb(183, 0, 255, 0.5) 0%, rgb(183, 0, 255, 0.5) 5%, transparent 5%, transparent 10%);    
+}
+
+#im_done {
+    background-color : rgb(203, 195, 227);
+}
+
+#layout_start {
+    width: 550px;
+    height: 700px;
+    border: 1px solid black;
+    background-position: center;
+    background-size: cover;
+}
+
+#layout_start2 {
+    width: 150px;
+    height: 1300px;
+    border: 1px solid black;
+    background-position: left;
+    background-color: darkblue;
+}
+
+#btn_layout {
+    width: 3.8cm;
+}
+
+#layout_start3 {
+    width: 300px;
+    height: 700px;
+    background-position: right;
+    align-self: right;
+}
+
+.vertical {
+    border-left: 3px solid black;
+    height: 700px;
+    position: absolute;
+    left: 26%;
+}
+
+#layout_right {
+    width: 400px;
+    height: 700px;
+    background-position: right;
+}
+#textBox {
+    background-color: yellowgreen;
+    width: 200px;
+    height: 200px;
+}
+
+#assignment_hw {
+    height: 250px;
+    width: 400px;
+}
+
+#display_image{
+    width: 400px;
+    height: 225px;
+    border: 1px solid black;
+    background-position: center;
+    background-size: cover;
+}
+
+#powered_by_text {
+    color: yellow;
+}
+
+#light_bulb {
+    height: 150px;
+    width: 150px;
+}
+
+#left_color_changer {
+    height: 5cm;
+    width: 3cm;
+    background-color: aquamarine;
+    fill: azure;
+    color: whitesmoke;
+}
+
+#right_color_changer {
+    height: 3cm;
+    width: 5cm;
+    background-color: aquamarine;
+    fill: azure;
+    color: whitesmoke;
+}
+
+#asd {
+    color: blueviolet;
+}

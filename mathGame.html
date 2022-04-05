@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="educationalGames.js"></script>
+    <link href="educationalGames.css" rel="stylesheet">
+    <title>Educational Games</title>
+</head>
+<body>
+    <div align="center">
+        <button id="Assignments" onclick="assignmentButton()" class="btn btn-primary">Assignments </button>
+        <button id="Classes" onclick="classButton()" class="btn btn-primary">Classes</button>
+        <button id="Sign_In_Section" onclick="signInButton()" class="btn btn-primary">Sign In Section</button>
+        <button id="Layout" onclick="layoutButton()" class="btn btn-primary">Layout</button>
+        <button id="Games" onclick="games()" class="btn btn-primary">Games</button>
+        <button id="im_done" onclick="ImDone()">I'm Done !</button>
+    </div>
+    <hr>
+    <div align="center">
+     <h3>Okay, here are some games to play !</h3>
+     <br><br>
+     <button id="previous_game" class="btn btn-danger" onclick="previousGame()">PREVIOUS</button>
+     <button id="next_game" class="btn btn-danger" onclick="nextGame()">NEXT</button>
+     <br><br>
+     <h4>MATH GAME</h4>
+    </div>
+    <br><br><br>
+    <canvas height="30" width="40">
+        <div class="main-ui">
+            <p class="problem"></p>
+          
+            <form action="" class="our-form">
+              <input type="text" class="our-field" autocomplete="off">
+              <button>Submit</button>
+            </form>
+          
+            <p class="status">You need <span class="points-needed">10</span> more points, and are allowed to make <span class="mistakes-allowed">2</span> more mistakes.</p>
+          
+            <div class="progress">
+              <div class="boxes">
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+              </div>
+              <div class="progress-inner"></div>
+            </div>
+          
+          </div>
+          
+          <div class="overlay">
+            <div class="overlay-inner">
+              <p class="end-message"></p>
+              <button class="reset-button">Start Over</button>
+            </div>
+          </div>
+    </canvas>
+    <div align="bottom">
+        <button onclick="secretBtn()"></button>
+    </div>
+</body>
+</html>

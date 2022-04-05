@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="layoutButton.js"></script>
+    <link href="layoutButton.css" rel="stylesheet">
+    <title>Layout</title>
+</head>
+<body>
+    <div align="center">
+        <button id="Assignments" onclick="assignmentButton()" class="btn btn-primary">Assignments </button>
+        <button id="Classes" onclick="classButton()" class="btn btn-primary">Classes</button>
+        <button id="Sign_In_Section" onclick="signInButton()" class="btn btn-primary">Sign In Section</button>
+        <button id="Layout" onclick="layoutButton()" class="btn btn-primary">Layout</button>
+        <button id="Games" onclick="games()" class="btn btn-primary">Games</button>
+        <button id="im_done" onclick="ImDone()">I'm Done !</button>
+    </div>
+    <hr>
+    <div align="center">
+    <h3>Let's choose the colors for your webpage !</h3>
+    </div>
+    <br><br><br>
+    <div id="layout_start">
+        <div class="vertical">
+            <div id="layout_right" align="center">
+                <h3>Assignments</h3>
+                <br><br><br><br><br><hr><br>
+    <div align="center">
+    <button class="btn btn-primary" onclick="uploadAssignments()">Upload Assignments</button>
+    </div>
+    <br>
+    <div align="center">
+        <input type="text" name="assignment" id="assignment_hw">
+        </div>
+        <br><hr><br>
+        <div align="center">
+    <textarea name=":)" id="textBox" cols="30" rows="20">:)
+    </textarea>
+    </div>
+    <div align="center">
+        <input type="file" id="image_input">
+        <div id="display_image"></div>
+    </div>
+    <input type="color" placeholder="Type the color here..." id="right_color_changer">
+          <h3>Change the color here</h3>  
+          </div>
+        </div>
+        <span>
+        <div id="layout_start2" align="left">
+            <div align="center">
+                <br><br>
+            <button id="btn_layout" onclick="assignmentButton()" class="btn btn-success">Assignments</button>
+            <br><br><br><br>
+            <button id="btn_layout" onclick="classButton()" class="btn btn-success">Classes</button>
+            <br><br><br><br>
+            <button id="btn_layout" onclick="signInButton()" class="btn btn-success">Sign In</button>
+            <br><br><br><br>
+            <button id="btn_layout" onclick="layoutButton()" class="btn btn-success">Layout</button>
+            <br><br><br><br>
+            <button id="btn_layout" onclick="games()" class="btn btn-success">Games</button>
+            <br><br><br><br><br>
+            <h4 id="powered_by_text">Powered By --</h4>
+            <h3 id="powered_by_text">My School OS Generator</h3>
+            <br><br><br>
+            <img src="light_bulb_os.jpg" id="light_bulb">
+            <br><br><br>
+            <input type="color" placeholder="Type the color here..." id="left_color_changer">
+            <h4 id="asd">Change the color here</h4>
+            <br><br>
+            <button id="btn_layout_submit" class="btn btn-info" onclick="layoutSubmit()">Done</button>
+            </div>
+        </div>
+        </span>
+    </div>
+</body>
+</html>

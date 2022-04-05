@@ -1,0 +1,34 @@
+body {
+    height: 100vh;
+    background: 
+        linear-gradient(45deg, rgb(76,0,255), transparent),
+        repeating-linear-gradient(45deg, rgb(183, 0, 255) 0%, rgb(183, 0, 255) 5%, transparent 5%, transparent 10%, rgb(183, 0, 255) 10%, rgb(183, 0, 255) 11%, transparent 11%, transparent 18% ),
+        rgb(216, 118, 255) repeating-linear-gradient(-45deg, rgb(183, 0, 255, 0.5) 0%, rgb(183, 0, 255, 0.5) 5%, transparent 5%, transparent 10%);    
+}
+
+#upload_assignment_text {
+    color: greenyellow;
+}
+
+#textBox {
+    background-color: yellowgreen;
+    width: 200px;
+    height: 200px;
+}
+
+#assignment_hw {
+    height: 250px;
+    width: 400px;
+}
+
+#display_image{
+    width: 400px;
+    height: 225px;
+    border: 1px solid black;
+    background-position: center;
+    background-size: cover;
+}
+
+#im_done {
+    background-color : rgb(203, 195, 227);
+}

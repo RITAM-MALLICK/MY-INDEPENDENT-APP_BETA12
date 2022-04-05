@@ -1,0 +1,65 @@
+body {
+    height: 100vh;
+    background: 
+        linear-gradient(45deg, rgb(76,0,255), transparent),
+        repeating-linear-gradient(45deg, rgb(183, 0, 255) 0%, rgb(183, 0, 255) 5%, transparent 5%, transparent 10%, rgb(183, 0, 255) 10%, rgb(183, 0, 255) 11%, transparent 11%, transparent 18% ),
+        rgb(216, 118, 255) repeating-linear-gradient(-45deg, rgb(183, 0, 255, 0.5) 0%, rgb(183, 0, 255, 0.5) 5%, transparent 5%, transparent 10%);    
+}
+
+#im_done {
+    background-color : rgb(203, 195, 227);
+}
+
+#random_stuff {
+    color: yellow;
+}
+
+#timetable {
+    border: 2px solid white;
+    background-size: cover;
+    height: 600px;
+    width: 580px;
+}
+
+#timetable1 {
+    border: 1px solid white;
+    background-size: cover;
+    height: 200px;
+    width: 580px;
+}
+
+#class1_name {
+    background-color: aqua;
+}
+
+#class1_teacher {
+    background-color: aqua;
+}
+
+#class1_btn {
+    background-color: aquamarine;
+}
+
+#class2_name {
+    background-color: yellow;
+}
+
+#class2_teacher {
+    background-color: yellow;
+}
+
+#class2_btn {
+    background-color: yellowgreen;
+}
+
+#class3_name {
+    background-color: pink;
+}
+
+#class3_teacher {
+    background-color: pink;
+}
+
+#class3_btn {
+    background-color: crimson;
+}
